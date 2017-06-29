@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace CityInfo.API.Controllers
 {
+    [Route("api/cities")]
     public class CitiesController : Controller
     {
-        [Route("api/cities")]
         public IActionResult GetCities()
         {
             return Ok(CitiesDataStore.Current.Cities);
         }
 
-        [HttpGet("api/cities/{id}")]
+        [HttpGet("{id}")]
         public IActionResult GetCity(int id)
         {
             // Find city

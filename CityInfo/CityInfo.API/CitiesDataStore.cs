@@ -19,19 +19,64 @@ namespace CityInfo.API.Models
                 {
                     Id = 1,
                     Name = "New York City",
-                    Description = "The big apple."
+                    Description = "The big apple.",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "Central Park",
+                            Description = "The most visited urban park in the U.S."
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "Empire State Building",
+                            Description = "A 102-story skyscraper located in Midtown Manhattan."
+                        },
+                    }
                 },
                 new CityDto()
                 {
                     Id = 2,
                     Name = "Antwerp",
-                    Description = "Has a cathedral."
+                    Description = "Has a cathedral.",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "Central Park",
+                            Description = "The most visited urban park in the U.S."
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "Empire State Building",
+                            Description = "A 102-story skyscraper located in Midtown Manhattan."
+                        },
+                    }
                 },
                 new CityDto()
                 {
                     Id = 3,
                     Name = "Paris",
-                    Description = "Eiffel tower."
+                    Description = "Eiffel tower.",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "Central Park",
+                            Description = "The most visited urban park in the U.S."
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "Empire State Building",
+                            Description = "A 102-story skyscraper located in Midtown Manhattan."
+                        },
+                    }
                 }
             };
         }
