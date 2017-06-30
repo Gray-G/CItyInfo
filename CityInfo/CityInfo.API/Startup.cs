@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using NLog.Extensions.Logging;
 
 namespace CityInfo.API
 {
@@ -39,6 +40,10 @@ namespace CityInfo.API
             loggerFactory.AddConsole();
 
             loggerFactory.AddDebug();
+
+            //loggerFactory.AddProvider(new NLog.Extensions.Logging.NLogLoggerProvider());
+            loggerFactory.AddNLog();
+            loggerFactory.ConfigureNLog("nlog.config");
 
             if (env.IsDevelopment())
             {
