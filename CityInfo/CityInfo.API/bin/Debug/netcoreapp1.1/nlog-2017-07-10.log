@@ -1,0 +1,72 @@
+2017-07-10 15:09:13.2597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-10 15:09:13.2597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-10 15:09:13.5771|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 386.5858ms 200 
+2017-07-10 15:09:13.7813|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 586.1387ms 200 
+2017-07-10 15:09:13.7893|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-10 15:09:13.8013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.2999ms 200 
+2017-07-10 15:10:37.5316|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-10 15:18:34.6699|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-10 15:18:34.6699|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-10 15:18:34.9202|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 318.8278ms 200 
+2017-07-10 15:18:35.0624|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 465.9313ms 200 
+2017-07-10 15:18:35.0814|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-10 15:18:35.0904|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.2612ms 200 
+2017-07-10 15:18:38.6622|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-10 15:24:24.9125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-10 15:24:24.9125|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-10 15:24:25.2019|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 343.735ms 200 
+2017-07-10 15:24:25.3741|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 520.1135ms 200 
+2017-07-10 15:24:25.3891|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-10 15:24:25.4011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.2747ms 200 
+2017-07-10 15:24:27.0322|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-10 15:24:28.7094|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2017-07-10 15:24:28.7544|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) with arguments ((null)) - ModelState is Valid
+2017-07-10 15:24:28.7705|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-07-10 15:24:28.7855|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 1656.1921ms
+2017-07-10 15:24:28.7855|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1762.7344ms 200 
+2017-07-10 15:28:49.0627|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-10 15:28:49.0627|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-10 15:28:49.3621|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 368.0847ms 200 
+2017-07-10 15:28:49.5213|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 530.9079ms 200 
+2017-07-10 15:28:49.5383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-10 15:28:49.5383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.3245ms 200 
+2017-07-10 15:28:51.3610|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-10 15:28:52.2762|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2017-07-10 15:28:52.3152|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) with arguments ((null)) - ModelState is Valid
+2017-07-10 15:28:52.3302|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-07-10 15:28:52.3462|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 879.1167ms
+2017-07-10 15:28:52.3593|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 997.1416ms 200 
+2017-07-10 15:47:15.8640|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-10 15:47:15.8640|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-10 15:47:16.1262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 328.1434ms 200 
+2017-07-10 15:47:16.2744|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 479.2741ms 200 
+2017-07-10 15:47:16.3064|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-10 15:47:16.3204|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.1511ms 200 
+2017-07-10 15:47:19.7345|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-10 15:47:32.0548|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (534ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [CityInfoDB];
+2017-07-10 15:47:32.1299|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5 EXEC(N'ALTER DATABASE [CityInfoDB] SET READ_COMMITTED_SNAPSHOT ON;');
+2017-07-10 15:47:32.3291|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cities] (
+    [Id] int NOT NULL IDENTITY,
+    [Description] nvarchar(200),
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY ([Id])
+);
+2017-07-10 15:47:32.3361|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [PointsOfInterest] (
+    [Id] int NOT NULL IDENTITY,
+    [CityId] int NOT NULL,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_PointsOfInterest] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_PointsOfInterest_Cities_CityId] FOREIGN KEY ([CityId]) REFERENCES [Cities] ([Id]) ON DELETE CASCADE
+);
+2017-07-10 15:47:32.3361|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_PointsOfInterest_CityId] ON [PointsOfInterest] ([CityId]);
+2017-07-10 15:47:32.3862|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) with arguments ((null)) - ModelState is Valid
+2017-07-10 15:47:32.4002|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-07-10 15:47:32.4142|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 12569.4227ms
+2017-07-10 15:47:32.4142|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12689.0837ms 200 
