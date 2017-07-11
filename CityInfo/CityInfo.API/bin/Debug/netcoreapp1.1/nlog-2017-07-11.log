@@ -1,0 +1,59 @@
+2017-07-11 11:33:48.2184|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-11 11:33:48.2184|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-11 11:33:48.5098|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 357.8559ms 200 
+2017-07-11 11:33:48.6660|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 517.3463ms 200 
+2017-07-11 11:33:48.6830|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-11 11:33:48.6950|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9353ms 200 
+2017-07-11 11:33:58.4569|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-11 11:34:05.5515|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 6985.0874ms
+2017-07-11 11:34:05.6667|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2017-07-11 11:34:05.8389|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7381.0126ms 500 text/html; charset=utf-8
+2017-07-11 11:37:17.0916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-11 11:37:17.0916|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-11 11:37:17.3760|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 350.346ms 200 
+2017-07-11 11:37:17.5352|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 508.4201ms 200 
+2017-07-11 11:37:17.5462|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-11 11:37:17.5462|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.8484ms 200 
+2017-07-11 11:37:20.4844|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-11 11:38:39.8584|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-11 11:38:39.8544|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-11 11:38:40.1378|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 335.9976ms 200 
+2017-07-11 11:38:40.2980|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 499.7123ms 200 
+2017-07-11 11:38:40.3250|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-11 11:38:40.3350|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.9922ms 200 
+2017-07-11 11:38:42.1404|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-11 11:38:43.1067|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-07-11 11:38:43.1247|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-07-11 11:38:43.2766|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-07-11 11:38:43.3467|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) with arguments ((null)) - ModelState is Valid
+2017-07-11 11:38:43.3627|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-07-11 11:38:43.3768|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 1132.3109ms
+2017-07-11 11:38:43.3898|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1248.64ms 200 
+2017-07-11 11:39:56.5265|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-11 11:39:56.5265|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-11 11:39:56.7989|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 335.5487ms 200 
+2017-07-11 11:39:56.9511|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 492.8095ms 200 
+2017-07-11 11:39:56.9681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/favicon.ico  
+2017-07-11 11:39:56.9681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.351ms 200 
+2017-07-11 11:40:00.5159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/api/testdatabase  
+2017-07-11 11:40:01.5021|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-07-11 11:40:01.5211|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2017-07-11 11:40:01.5462|INFO|Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2017-07-11 11:40:01.6033|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) with arguments ((null)) - ModelState is Valid
+2017-07-11 11:40:01.6193|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-07-11 11:40:01.6343|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.DummyController.TestDatabase (CityInfo.API) in 1004.604ms
+2017-07-11 11:40:01.6553|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1130.511ms 200 
+2017-07-11 12:06:19.3181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:50437/  
+2017-07-11 12:06:19.3181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:50437/  0
+2017-07-11 12:06:19.5652|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 311.382ms 200 
+2017-07-11 12:06:19.7086|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 459.74ms 200 
